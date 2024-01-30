@@ -1,0 +1,93 @@
+body{
+    background-image: url(AI.png);
+}
+
+.password{
+    color: rgb(47, 37, 104);
+    flex: 1;
+    
+        max-width: 400px;
+        padding: 20px;
+        background-color: rgb(182, 208, 230);
+        border-radius: 50px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.lock{
+    max-width: 400px;
+        padding: 10px;
+        background-color: rgb(182, 208, 230);
+        border-radius: 55px;
+        float: left;
+        
+}
+
+p{
+    color: rgb(47, 37, 104);
+    flex: 1;
+    
+        max-width: 400px;
+        padding: 20px;
+        background-color: rgb(182, 208, 230);
+        border-radius: 50px;
+        float: left;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+       font-size: 20px;      
+       text-align: center;
+}
+
+.stebs{
+    color: rgb(5, 28, 48);
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first{
+
+    max-width: 400px;
+    padding: 10px;
+    background-color: rgb(110, 139, 163);  
+      border-radius: 55px;
+}
+
+.second{
+    max-width: 400px;
+    padding: 10px;
+    background-color: rgb(141, 135, 229);
+    border-radius: 55px;
+} 
+
+.third{
+    max-width: 400px;
+    padding: 10px;
+    background-color: rgb(110, 139, 163);
+    border-radius: 55px;
+}
+ 
+.info{
+    max-width: 400px;
+    padding: 10px;
+    background-color: rgb(110, 139, 163);
+    border-radius: 55px;
+}
+.left{
+    max-width: 400px;
+    padding: 10px;
+    background-color: rgb(110, 139, 163);
+    border-radius: 55px;
+}
+
+.who{
+    max-width: 400px;
+    padding: 10px;
+    background-color: rgb(110, 139, 163);
+    border-radius: 55px;
+    justify-self: flex-end;
+}
+@media (max-width: 1250px) {
+    .pricing-container{
+      flex-direction: column;
+      height: 100%;
+    }
+  }
